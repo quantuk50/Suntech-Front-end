@@ -1,0 +1,102 @@
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body{
+	font-family: sans-serif;
+	width: 1280px;
+	margin-left: 50px;
+	margin-top: 0px;
+}
+#header {
+	width: 1280px;
+
+}
+
+#header .container {
+	width: 1155px;
+	margin: 0px auto;
+}
+
+#header .container div.logo {
+	float: left;
+	width: 200px;
+	padding-left: 200px;
+}
+#header .container div.tittle {
+	float: left;
+	margin-top: 50px;
+	width: 655px;
+	color: orange;
+}
+#nav {
+	background: green;
+	clear: left;
+	margin-left: 250px;
+	margin-top: 0px auto;
+	width: 905px;
+}
+
+#nav .container ul.menu {
+	list-style-type: none;
+}
+
+#nav .container ul.menu li {
+	display: inline-block;
+}
+
+#nav .container ul.menu li a {
+	text-decoration: none;
+	height: 50px;
+	display: block;
+	line-height: 50px;
+	color: white;
+	padding-right: 50px;
+}
+#content {
+	width: 705px;
+	float: left;
+	margin-left: 250px;
+}
+
+#content .container {
+	float: left;
+}
+
+#content .container div.image {
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin-top: 18px;
+}
+#content .container div.main-content {
+	float: left;
+	width: 450px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+
+#content .container div.main-content span {
+	padding-right: 10px;
+}
+
+#banner {
+	width: 200px;
+	float: left;
+}
+
+#footer {
+	clear: left;
+	width: 905px;
+	margin-left: 250px;
+	background: grey;
+}
+
+#footer .container div.tittle {
+	height: 100px;
+	width: 905px;
+	padding-top: 30px;
+	padding-left: 200px;
+}
